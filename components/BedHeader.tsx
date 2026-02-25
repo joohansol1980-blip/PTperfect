@@ -145,10 +145,6 @@ export const BedHeader = memo(({
           onToggleESWT={onToggleESWT}
           onToggleManual={onToggleManual}
           onToggleInjectionCompleted={onToggleInjectionCompleted}
-          onEditMemo={() => {
-            setStatusMenuPos(null);
-            setIsMemoModalOpen(true);
-          }}
         />
       )}
     </>
